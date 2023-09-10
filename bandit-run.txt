@@ -1,0 +1,152 @@
+CAL-TDD.PY
+
+(bandit-env) M-O-E--S-MBPro:features moesallam$ bandit -r cal-tdd.py
+[main]	INFO	profile include tests: None
+[main]	INFO	profile exclude tests: None
+[main]	INFO	cli include tests: None
+[main]	INFO	cli exclude tests: None
+[main]	INFO	running on Python 3.9.6
+[node_visitor]	WARNING	Unable to find qualified name for module: cal-tdd.py
+Run started:2022-11-08 03:58:50.667664
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 13
+	Total lines skipped (#nosec): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+(bandit-env) M-O-E--S-MBPro:features moesallam$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CALC_ADDITION.PY
+
+(bandit-env) M-O-E--S-MBPro:features moesallam$ bandit -r calc_addition.py
+[main]	INFO	profile include tests: None
+[main]	INFO	profile exclude tests: None
+[main]	INFO	cli include tests: None
+[main]	INFO	cli exclude tests: None
+[main]	INFO	running on Python 3.9.6
+[node_visitor]	WARNING	Unable to find qualified name for module: calc_addition.py
+Run started:2022-11-08 04:01:40.086261
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 65
+	Total lines skipped (#nosec): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+(bandit-env) M-O-E--S-MBPro:features moesallam$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CALCULATOR.PY
+
+(bandit-env) M-O-E--S-MBPro:features moesallam$ bandit -r calculator.py
+[main]	INFO	profile include tests: None
+[main]	INFO	profile exclude tests: None
+[main]	INFO	cli include tests: None
+[main]	INFO	cli exclude tests: None
+[main]	INFO	running on Python 3.9.6
+[node_visitor]	WARNING	Unable to find qualified name for module: calculator.py
+Run started:2022-11-08 04:00:00.579507
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 11
+	Total lines skipped (#nosec): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+(bandit-env) M-O-E--S-MBPro:features moesallam$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

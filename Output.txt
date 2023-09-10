@@ -1,0 +1,45 @@
+******************************************************************************************************************************************************
+FUZZ: checkAlgoNames() PASSED
+******************************************************************************************************************************************************
+
+FUZZ: checkForLibraryImport() with parameter "" FAILED
+Traceback (most recent call last):
+  File "fuzzing.py", line 38, in checkForLibraryImportFuzz
+    py_parser.checkForLibraryImport(i)
+  File "/home/jem0101/finalprojectDir/TestOrchestrator4ML-main/resources/Code/generation/identify_algo/py_parser.py", line 77, in checkForLibraryImport
+    import_list = getImport(pyTree)
+  File "/home/jem0101/finalprojectDir/TestOrchestrator4ML-main/resources/Code/generation/identify_algo/py_parser.py", line 16, in getImport
+    for stmt_ in pyTree.body:
+AttributeError: 'str' object has no attribute 'body'
+******************************************************************************************************************************************************
+
+FUZZ: getImport() with parameter "" FAILED
+Traceback (most recent call last):
+  File "fuzzing.py", line 55, in getImportFuzz
+    py_parser.getImport(i)
+  File "/home/jem0101/finalprojectDir/TestOrchestrator4ML-main/resources/Code/generation/identify_algo/py_parser.py", line 16, in getImport
+    for stmt_ in pyTree.body:
+AttributeError: 'str' object has no attribute 'body'
+******************************************************************************************************************************************************
+
+FUZZ: getFunctionDetailsForClaases() with parameter "" FAILED
+Traceback (most recent call last):
+  File "fuzzing.py", line 73, in getFunctionDetailsForClaasesFuzz
+    py_parser.getFunctionDetailsForClaases(i)
+  File "/home/jem0101/finalprojectDir/TestOrchestrator4ML-main/resources/Code/generation/identify_algo/py_parser.py", line 32, in getFunctionDetailsForClaases
+    for stmt_ in pyTree.body:
+AttributeError: 'str' object has no attribute 'body'
+******************************************************************************************************************************************************
+
+FUZZ: getClassificationAlgoNames() with parameter "" FAILED
+Traceback (most recent call last):
+  File "fuzzing.py", line 91, in getClassificationAlgoNamesFuzz
+    py_parser.getClassificationAlgoNames(i)
+  File "/home/jem0101/finalprojectDir/TestOrchestrator4ML-main/resources/Code/generation/identify_algo/py_parser.py", line 94, in getClassificationAlgoNames
+    library_import = checkForLibraryImport(pyTree)
+  File "/home/jem0101/finalprojectDir/TestOrchestrator4ML-main/resources/Code/generation/identify_algo/py_parser.py", line 77, in checkForLibraryImport
+    import_list = getImport(pyTree)
+  File "/home/jem0101/finalprojectDir/TestOrchestrator4ML-main/resources/Code/generation/identify_algo/py_parser.py", line 16, in getImport
+    for stmt_ in pyTree.body:
+AttributeError: 'str' object has no attribute 'body'
+******************************************************************************************************************************************************
